@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>top.cfish.testng.plugin</id>
+  <name>AutoMakeTestNGXml</name>
+  <version>0.1</version>
+  <vendor email="isisiwish@gmail.com" url="https://cfish.top">isisiwish</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="173.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="AutoMakeTestNGXmlAction"
+            class="AutoMakeTestNGXmlAction"
+            text="AutoMakeTestNGXmlAction"
+            description="AutoMakeTestNGXmlAction">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
